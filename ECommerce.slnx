@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ECommerce.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+</Solution>
