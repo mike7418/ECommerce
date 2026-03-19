@@ -4,7 +4,8 @@
 :root {
     --primary__color: #242424;
     --secondary__color: #7342d6;
-
+    --accent__bright: #ffffff;
+    --accent__color: #7342d6;
 }
 
 * {
@@ -56,4 +57,99 @@ li {
 h1 {
     font-size: 56px;
     color: var(--secondary_color);
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(1px);
+}
+
+.btn {
+    background-color: var(--secondary__color);
+    color: var(--accent__bright);
+    padding: 12px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+}
+
+.purple {
+    color: var(--accent__color);
+}
+
+.logo {
+    width: 160px;
+}
+
+.nav__container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav__link {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--secondary__color);
+    font-weight: bold;
+    padding: 8px;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link--primary {
+    border: 2px solid var(--secondary__color);
+    border-radius: 4px;
+}
+
+.nav__link--primary:hover {
+    text-decoration: none;
+}
+
+.btn_menu {
+    background-color: transparent;
+    font-size: 40px;
+    border: none;
+    color: var(--secondary__color);
+    display: none;
+}
+
+.menu__backdrop {
+    position: absolute;
+    background-color: var(--primary__color);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    visibility: hidden;
+    transition: all 300ms ease;
+    opacity: 0;
+    transform: translate(100%);
+}
+
+.menu__open {
+    max-height: 100vh;
+    overflow: hidden;
 }
