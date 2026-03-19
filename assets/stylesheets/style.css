@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
 
 :root {
-    --primary__color: #242424;
-    --secondary__color: #7342d6;
-    --accent__bright: #ffffff;
-    --accent__color: #7342d6;
+    --primary-color: #242424;
+    --secondary-color: #7342d6;
+    --accent-bright: #ffffff;
 }
 
 * {
@@ -56,7 +55,7 @@ li {
 
 h1 {
     font-size: 56px;
-    color: var(--secondary_color);
+    color: var(--secondary-color);
     margin-bottom: 24px;
     text-align: center;
 }
@@ -76,8 +75,8 @@ button:active {
 }
 
 .btn {
-    background-color: var(--secondary__color);
-    color: var(--accent__bright);
+    background-color: var(--secondary-color);
+    color: var(--accent-bright);
     padding: 12px 24px;
     font-size: 20px;
     border-radius: 4px;
@@ -85,7 +84,7 @@ button:active {
 }
 
 .purple {
-    color: var(--accent__color);
+    color: var(--secondary-color);
 }
 
 .logo {
@@ -106,7 +105,7 @@ button:active {
     margin-left: 16px;
     text-decoration: none;
     font-size: 20px;
-    color: var(--secondary__color);
+    color: var(--secondary-color);
     font-weight: bold;
     padding: 8px;
 }
@@ -116,7 +115,7 @@ button:active {
 }
 
 .nav__link--primary {
-    border: 2px solid var(--secondary__color);
+    border: 2px solid var(--secondary-color);
     border-radius: 4px;
 }
 
@@ -128,13 +127,13 @@ button:active {
     background-color: transparent;
     font-size: 40px;
     border: none;
-    color: var(--secondary__color);
+    color: var(--secondary-color);
     display: none;
 }
 
 .menu__backdrop {
     position: absolute;
-    background-color: var(--primary__color);
+    background-color: var(--primary-color);
     top: 0;
     left: 0;
     right: 0;
@@ -171,7 +170,7 @@ button:active {
 }
 
 .menu__link {
-    color: var(--accent__bright);
+    color: var(--accent-bright);
     font-size: 40px;
 }
 
@@ -180,5 +179,5 @@ button:active {
     top: 10px;
     right: 20px;
     padding: 8px;
-    color: var(--accent__bright);
+    color: var(--accent-bright);
 }
