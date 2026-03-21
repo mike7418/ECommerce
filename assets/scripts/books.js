@@ -176,3 +176,6 @@ function getBooks() {
 }
 
 
+}
+
+>>>>>>>>> Temporary merge branch 2
