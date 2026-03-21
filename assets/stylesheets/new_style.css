@@ -150,7 +150,7 @@ button:active {
 	justify-content: center;
 	visibility: hidden;
 	transition: all 300ms ease;
-	opacity: 0;
+	opacity: 1;
 	transform: translate(100%);
 }
 
@@ -218,7 +218,7 @@ header {
 
 .header__img--wrapper {
 	padding: 20px;
-	z-index: 100;
+	//z-index: 100;
 }
 
 .container {
@@ -491,7 +491,7 @@ select {
 	button {
 		font-size: 18px;
 	}
-	
+
 	.book {
 		width: 50%;
 	}
@@ -506,6 +506,10 @@ select {
 		
 		.nav__links {
 			display: none;
+		}
+
+		.header__img--wrapper {
+			z-index: 0;
 		}
 		
 		.highlight {
