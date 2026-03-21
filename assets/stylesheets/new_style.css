@@ -360,7 +360,7 @@ header {
 
 .book__ratings {
 	margin-bottom: 8px;
-	color: var(--ratings-color);
+	color: var(--star-color);
 }
 
 .book__price--normal {
