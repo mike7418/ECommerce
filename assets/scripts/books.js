@@ -172,3 +172,6 @@ function getBooks() {
         }, 1000);
     });
 }
+
+
+>>>>>>>>> Temporary merge branch 2
