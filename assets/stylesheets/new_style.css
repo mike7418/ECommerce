@@ -97,7 +97,7 @@ button:active {
 	width: 160px;
 }
 
-nav__container {
+.nav__container {
 	width: 100%;
 	max-width: 1200px;
 	padding: 0 24px;
