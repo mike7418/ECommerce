@@ -60,10 +60,10 @@ function priceHTML(originalPrice, salePrice) {
 
 function ratingsHTML(rating) {
     let ratingHTML = "";
-    for (let i - 0; i < Math.floor(rating); ++i) {
+    for (let i = 0; i < Math.floor(rating); ++i) {
         ratingHTML += '<i class="fas fa-star"></i>\n';
     }
-    if (1Number.isInteger(rating)) {
+    if (!Number.isInteger(rating)) {
         ratingHTML += '<i class="fas fa-star-half-alt"></i>\n';
     }
     return ratingHTML;
@@ -78,8 +78,7 @@ setTimeout(() => {
 });
 
 // FAKE DATA
-
-functiongetBooks() {
+function getBooks() {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve([
@@ -175,4 +174,5 @@ functiongetBooks() {
         }, 1000);
     });
 }
+
 
